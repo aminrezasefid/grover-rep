@@ -360,6 +360,7 @@ def load_data(args, debug, logger):
     else:
         train_data, val_data, test_data = split_data(data=data, split_type=args.split_type,
                                                      sizes=args.split_sizes, seed=args.seed, args=args, logger=logger)
+    
     if args.dataset_type == 'classification':
         class_sizes = get_class_sizes(data)
         debug('Class sizes')
