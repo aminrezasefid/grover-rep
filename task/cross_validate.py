@@ -49,11 +49,11 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[float, float
     info(f'{args.num_folds}-fold cross validation')
 
     for fold_num, scores in enumerate(all_scores):
-        info(f'Seed {init_seed + fold_num} ==> test {args.metric} = {np.nanmean(scores):.6f}')
+        print(f'Seed {init_seed + fold_num} ==> test {args.metric} = {np.nanmean(scores):.6f}')
 
         if args.show_individual_scores:
             for task_name, score in zip(task_names, scores):
-                info(f'Seed {init_seed + fold_num} ==> test {task_name} {args.metric} = {score:.6f}')
+                print(f'Seed {init_seed + fold_num} ==> test {task_name} {args.metric} = {score:.6f}')
 
     # Report scores across models
     avg_scores = np.nanmean(all_scores, axis=1)  # average score for each model across tasks
