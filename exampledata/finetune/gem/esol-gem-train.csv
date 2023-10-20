@@ -70,10 +70,7 @@ CCCC(C)(C)C,-4.36
 CCCCOC(=O)CCCCCCCCC(=O)OCCCC,-3.896
 CC(=C)C=C,-2.03
 CC(C)=CCCC(O)(C)C=C,-1.99
-OCC(O)C(O)C(O)C(O)CO ,"smiles
-OCC(O)C(O)C(O)C(O)CO    0.06
-OCC(O)C(O)C(O)C(O)CO    1.09
-Name: measured log solubility in mols per litre, dtype: float64"
+OCC(O)C(O)C(O)C(O)CO ,0.06
 CCCC(=O)CCC,-1.3
 CC(=O)C(C)(C)C,-0.72
 ClC(Cl)(Cl)C#N,-2.168
@@ -83,10 +80,7 @@ CCOC(=O)N,0.85
 CC(C)C(O)C(C)C,-1.22
 CCCCBr,-2.37
 CC(C)CC(=O)C,-0.74
-OCC(O)C(O)C(O)C(O)CO,"smiles
-OCC(O)C(O)C(O)C(O)CO    0.06
-OCC(O)C(O)C(O)C(O)CO    1.09
-Name: measured log solubility in mols per litre, dtype: float64"
+OCC(O)C(O)C(O)C(O)CO,0.06
 CCS,-0.6
 ClCC(Cl)Cl,-1.48
 CCCCCCCCl,-4.0
@@ -476,10 +470,7 @@ Fc1cccc(Br)c1,-2.67
 Clc1ccc(Br)cc1,-3.63
 COc1ccccc1N(=O)=O,-1.96
 CCC(C)c1cc(cc(N(=O)=O)c1O)N(=O)=O ,-3.38
-COc1ccccc1O ,"smiles
-COc1ccccc1O   -1.96
-COc1ccccc1O   -1.96
-Name: measured log solubility in mols per litre, dtype: float64"
+COc1ccccc1O ,-1.96
 Oc1ccc(Cl)c(Cl)c1Cl,-2.67
 COc1ccccc1,-1.85
 CCc1ccc(C)cc1,-3.11
@@ -567,10 +558,7 @@ Clc1ccccc1Br,-3.19
 Oc1cc(Cl)cc(Cl)c1,-1.34
 Cc1ccccc1,-2.21
 Oc1cc(Cl)c(Cl)c(Cl)c1Cl,-3.15
-COc1ccccc1O,"smiles
-COc1ccccc1O   -1.96
-COc1ccccc1O   -1.96
-Name: measured log solubility in mols per litre, dtype: float64"
+COc1ccccc1O,-1.96
 CCOC(=O)c1ccccc1C(=O)OCC,-2.35
 CC(C)Cc1ccccc1,-4.12
 Oc1c(Cl)c(Cl)cc(Cl)c1Cl,-3.37
@@ -628,18 +616,12 @@ CCc1cccc2ccccc12,-4.17
 Brc1cccc2ccccc12,-4.35
 Nc1cccc2ccccc12,-1.92
 Oc1ccc2ccccc2c1,-2.28
-c1c(Br)ccc2ccccc12 ,"smiles
-Brc1ccc2ccccc2c1   -4.4
-Brc1ccc2ccccc2c1   -4.4
-Name: measured log solubility in mols per litre, dtype: float64"
+c1c(Br)ccc2ccccc12 ,-4.4
 c1ccc2ccccc2c1,-3.6
 Ic1cccc2ccccc12,-4.55
 Cc1ccc2ccccc2c1,-3.77
 Clc1cccc2ccccc12,-3.93
-Brc1ccc2ccccc2c1,"smiles
-Brc1ccc2ccccc2c1   -4.4
-Brc1ccc2ccccc2c1   -4.4
-Name: measured log solubility in mols per litre, dtype: float64"
+Brc1ccc2ccccc2c1,-4.4
 CCc1ccc2ccccc2c1,-4.29
 Cc1cccc2ccccc12,-3.7
 CCN(CC)C(=O)C(C)Oc1cccc2ccccc12 ,-3.57
@@ -650,10 +632,7 @@ Cc1cc2ccccc2cc1C,-4.72
 O=N(=O)c1cccc2ccccc12,-3.54
 CNC(=O)Oc1cccc2ccccc12,-3.224
 CCCCC1(CC)C(=O)NC(=O)NC1=O,-1.661
-CCC1(CCC(C)C)C(=O)NC(=O)NC1=O,"smiles
-CCC1(CCC(C)C)C(=O)NC(=O)NC1=O   -2.468
-CCC1(CCC(C)C)C(=O)NC(=O)NC1=O   -2.658
-Name: measured log solubility in mols per litre, dtype: float64"
+CCC1(CCC(C)C)C(=O)NC(=O)NC1=O,-2.468
 O=C1NC(=O)NC(=O)C1(CC)C(C)CC,-2.39
 O=C1NC(=O)NC(=O)C1(C)CC=C,-1.16
 CCC(C)C1(CC=C)C(=O)NC(=O)NC1=O,-2.016
@@ -664,19 +643,10 @@ O=C1NC(=O)NC(=O)C1(C(C)CCC)CC=C,-2.356
 O=C1NC(=O)NC(=O)C1(CC)C(C)CCC,-2.39
 O=C1NC(=O)NC(=O)C1(C(C)C)CC=C,-1.7080000000000002
 O=C1NC(=O)NC(=O)C1(CC)CC=C,-1.614
-CCC1(C(C)C)C(=O)NC(=O)NC1=O ,"smiles
-CCC1(C(C)C)C(=O)NC(=O)NC1=O   -2.210
-CCC1(C(C)C)C(=O)NC(=O)NC1=O   -2.148
-Name: measured log solubility in mols per litre, dtype: float64"
+CCC1(C(C)C)C(=O)NC(=O)NC1=O ,-2.21
 O=C1NC(=O)NC(=O)C1(CC=C)CC=C,-2.077
-O=C1NC(=O)NC(=O)C1(CC)CCC(C)C,"smiles
-CCC1(CCC(C)C)C(=O)NC(=O)NC1=O   -2.468
-CCC1(CCC(C)C)C(=O)NC(=O)NC1=O   -2.658
-Name: measured log solubility in mols per litre, dtype: float64"
-O=C1NC(=O)NC(=O)C1(CC)C(C)C,"smiles
-CCC1(C(C)C)C(=O)NC(=O)NC1=O   -2.210
-CCC1(C(C)C)C(=O)NC(=O)NC1=O   -2.148
-Name: measured log solubility in mols per litre, dtype: float64"
+O=C1NC(=O)NC(=O)C1(CC)CCC(C)C,-2.468
+O=C1NC(=O)NC(=O)C1(CC)C(C)C,-2.21
 O=C1NC(=O)NC(=O)C1(C)CC,-1.228
 O=C1NC(=O)NC(=O)C1(CC)CC=C(C)C,-2.253
 CCC(C)C1(CC(Br)=C)C(=O)NC(=O)NC1=O ,-2.647
@@ -730,10 +700,7 @@ NC(=O)c1cccnc1 ,0.61
 Clc1cccc(n1)C(Cl)(Cl)Cl,-3.76
 Oc1ccncc1,1.02
 COc1ccc(cc1)C(c2ccc(OC)cc2)C(Cl)(Cl)Cl,-6.89
-ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,"smiles
-Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)Cl)cc1   -7.2
-Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)Cl)cc1   -7.2
-Name: measured log solubility in mols per litre, dtype: float64"
+ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,-7.2
 c1ccccc1C(O)c2ccccc2,-2.55
 OC(c1ccc(Cl)cc1)(c2ccc(Cl)cc2)C(Cl)(Cl)Cl,-5.666
 ClC(Cl)C(c1ccc(Cl)cc1)c2ccccc2Cl ,-6.51
@@ -742,10 +709,7 @@ CN(C)C(=O)C(c1ccccc1)c2ccccc2 ,-2.98
 Clc1ccc(cc1)C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl,-7.15
 C(c1ccccc1)c2ccccc2,-4.08
 CC(C)OC(=O)C(O)(c1ccc(Br)cc1)c2ccc(Br)cc2 ,-4.93
-ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2 ,"smiles
-Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)Cl)cc1   -7.2
-Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)Cl)cc1   -7.2
-Name: measured log solubility in mols per litre, dtype: float64"
+ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2 ,-7.2
 Oc1ccc(Cl)cc1Cc2cc(Cl)ccc2O,-3.953
 CC(C)C1CCC(C)CC1O ,-2.53
 OC1CCCCC1,-0.44
@@ -840,14 +804,8 @@ CCCC1CCCC1,-4.74
 C1CCCC1,-2.64
 CCCCCC1CCCC1,-6.08
 CC1CCCC1,-3.3
-CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O,"smiles
-CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O   -6.34
-CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O   -6.34
-Name: measured log solubility in mols per litre, dtype: float64"
-CCOP(=S)(OCC)SC(CCl)N2C(=O)c1ccccc1C2=O,"smiles
-CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O   -6.34
-CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O   -6.34
-Name: measured log solubility in mols per litre, dtype: float64"
+CCOP(=S)(OCC)SC(CCl)N1C(=O)c2ccccc2C1=O,-6.34
+CCOP(=S)(OCC)SC(CCl)N2C(=O)c1ccccc1C2=O,-6.34
 O=C1NC(=O)c2ccccc12 ,-2.61
 CCOP(=S)(OCC)N2C(=O)c1ccccc1C2=O,-3.35
 Oc1ccc(Cl)cc1C(=O)Nc2ccc(cc2Cl)N(=O)=O,-4.7
@@ -902,14 +860,8 @@ C1OC(O)C(O)C(O)C1O,0.39
 OCC1OC(O)C(O)C(O)C1O,0.74
 C1CCOCC1,-0.03
 O=C1NC(=O)NC(=O)C1(CC=C)c1ccccc1,-2.369
-CCC1(C(=O)NC(=O)NC1=O)c2ccccc2 ,"smiles
-CCC1(c2ccccc2)C(=O)NC(=O)NC1=O   -2.322
-CCC1(c2ccccc2)C(=O)NC(=O)NC1=O   -2.322
-Name: measured log solubility in mols per litre, dtype: float64"
-O=C1NC(=O)NC(=O)C1(CC)c1ccccc1,"smiles
-CCC1(c2ccccc2)C(=O)NC(=O)NC1=O   -2.322
-CCC1(c2ccccc2)C(=O)NC(=O)NC1=O   -2.322
-Name: measured log solubility in mols per litre, dtype: float64"
+CCC1(C(=O)NC(=O)NC1=O)c2ccccc2 ,-2.322
+O=C1NC(=O)NC(=O)C1(CC)c1ccccc1,-2.322
 c1ccccc1n2ncc(N)c(Br)c2(=O),-3.127
 CNc2cnn(c1cccc(c1)C(F)(F)F)c(=O)c2Cl,-4.046
 Nc2cnn(c1ccccc1)c(=O)c2Cl,-2.878
@@ -925,14 +877,8 @@ O2c1ccccc1N(CC)C(=O)c3ccccc23 ,-3.68
 O2c1ccc(N)cc1N(C)C(=O)c3cc(C)ccc23 ,-3.928
 C1Cc2c3c1cccc3cc4c2ccc5ccccc54,-7.85
 c1cc(C)cc2c1c3cc4cccc5CCc(c45)c3cc2,-7.92
-Cc1ncc(N(=O)=O)n1CCO,"smiles
-Cc1ncc([N+](=O)[O-])n1CCO   -1.22
-Cc1ncc([N+](=O)[O-])n1CCO   -1.26
-Name: measured log solubility in mols per litre, dtype: float64"
-Cc1ncc(N(=O)=O)n1CCO ,"smiles
-Cc1ncc([N+](=O)[O-])n1CCO   -1.22
-Cc1ncc([N+](=O)[O-])n1CCO   -1.26
-Name: measured log solubility in mols per litre, dtype: float64"
+Cc1ncc(N(=O)=O)n1CCO,-1.22
+Cc1ncc(N(=O)=O)n1CCO ,-1.22
 NS(=O)(=O)c2cc1c(NCNS1(=O)=O)cc2Cl ,-2.63
 NS(=O)(=O)c2cc1c(NC(NS1(=O)=O)C(Cl)Cl)cc2Cl ,-2.68
 CC2=CC(=O)c1ccccc1C2=O ,-3.03
