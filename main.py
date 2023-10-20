@@ -35,6 +35,7 @@ if __name__ == '__main__':
     mol_vocab = MolVocab
 
     args = parse_args()
+    setup(seed=args.seed)
     if args.parser_name == 'finetune':
         logger = create_logger(name='train', save_dir=args.save_dir, quiet=False)
         cross_validate(args, logger)
