@@ -1,6 +1,6 @@
 #!/bin/bash
 datasets="esol freesolv lipo qm7 bbbp bace "
-datasets="lipo "
+datasets="esol freesolv "
 epoch=50
 batch_size=32
 source activate chem
