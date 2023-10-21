@@ -1,6 +1,6 @@
 #!/bin/bash
 datasets="esol freesolv lipo qm7 bbbp bace "
-datasets="bbbp bace "
+datasets="esol freesolv "
 epoch=50
 batch_size=32
 source activate chem
@@ -29,7 +29,7 @@ for dataset in $datasets; do
                         --ffn_hidden_size 200 \
                         --batch_size $batch_size \
                         --epochs $epoch \
-                        --init_lr 0.00015 > "./$dataset-result$num.txt"
+                        --init_lr 0.00015 > "./$dataset-featurize-result$num.txt"
         }
         done
 done
